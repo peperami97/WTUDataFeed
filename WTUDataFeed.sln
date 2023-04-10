@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTUDataFeed", "WTUDataFeed\WTUDataFeed.csproj", "{BDBD7C6F-AEE3-44DE-BAC7-0C094FA51E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTUDataFeedTests", "WTUDataFeedTests\WTUDataFeedTests.csproj", "{BBFE3EB9-7AFA-421B-97F8-432F95147124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBD7C6F-AEE3-44DE-BAC7-0C094FA51E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBD7C6F-AEE3-44DE-BAC7-0C094FA51E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBD7C6F-AEE3-44DE-BAC7-0C094FA51E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBD7C6F-AEE3-44DE-BAC7-0C094FA51E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFE3EB9-7AFA-421B-97F8-432F95147124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFE3EB9-7AFA-421B-97F8-432F95147124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFE3EB9-7AFA-421B-97F8-432F95147124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFE3EB9-7AFA-421B-97F8-432F95147124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C977B467-F2BC-4171-99CF-747974D46FA6}
+	EndGlobalSection
+EndGlobal
