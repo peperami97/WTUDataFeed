@@ -34,6 +34,26 @@ namespace WTUDataFeedTests
 
       }
 
+      [TestMethod]
+      public async Task ProcessFeed()
+      {
+         HttpClient client = new()
+         {
+            BaseAddress = new Uri(@"https://www.whostheumpire.com/data-feed.php?feed_id=81430476&dbtu=cricket&feed_format=csv&date=future&unconfirmed=1&show_time=1&title_row=1")
+         };
+
+         using HttpResponseMessage responseMessage = await client.GetAsync("");
+
+         responseMessage.EnsureSuccessStatusCode();
+
+         var response = await responseMessage.Content.ReadAsStringAsync();
+         using StringReader reader = new StringReader(response);
+
+         Datafeed feed = new Datafeed(reader);
+         feed.Read();
+         feed.Process();
+         Assert.IsNotNull(feed.Fixtures);
+      }
       
    }
 }

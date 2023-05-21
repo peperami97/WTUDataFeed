@@ -34,7 +34,7 @@ namespace WTUDataFeed
       [Index(10)]
       public string? Appointee { get; set; }
 
-      [Index(11)]
+      [Index(13)]
       public string? Role { get; set; }
 
       public override string ToString()
